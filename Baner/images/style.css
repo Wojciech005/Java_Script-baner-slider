@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: arial;
+    color: white;
+    text-transform: uppercase;
+}
+
+div {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background-image: url(images/image1.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 0 0 0 5px white, 0 0 0 8px black;
+}
+
